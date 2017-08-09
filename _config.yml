@@ -11,7 +11,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Toda la buena puta mierda de Malaga, 569.009 de moscas no pueden estar tan equivocadas.
 repository: https://github.com/NOP
 baseurl:   # the subpath of your site, e.g. /blog
-url: https://wemake-services.github.io  # the base hostname & protocol for your site
+url: www.putamierdamalaga.com  # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
