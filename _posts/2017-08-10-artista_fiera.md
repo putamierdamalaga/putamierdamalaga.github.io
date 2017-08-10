@@ -1,23 +1,21 @@
 ---
 layout: post
-title: Concierto de El Kanka
-date: 2017-08-10 00:00:23
-date_event: 2017-08-12 22:00:00
+title: Concierto de Artista Fiera COOOOOOLega
+date: 2017-08-10 00:01:23
+date_event: 2017-08-13 22:00:00
 lugar: Artsenal. Muelle Uno.
 categories: musica artsenal muelle_uno
-short_description: Pos el Kanka, en muelle uno, el sábado.
+short_description: Una artista muy fiera.
 image_preview: /images/feria_mar_2017.jpeg
 ---
+
 {{ page.date_event }}
 {{ page.lugar }}
 <br/>
 {{ page.categories }}
 
-
 <section style="display: flex;">
 <div style="display: flex; flex-direction: column;">
-<!-- ![](http://s.woodstockfestival.pl/trunk/uploaded/sended/files/nowinki/naliah---8-czerwca.jpg?1490189923874) -->
-
 <img width="300px" src="{{ page.image_preview }}">
 </div>
 
