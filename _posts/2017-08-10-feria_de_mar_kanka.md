@@ -6,7 +6,6 @@ date_event: 2017-08-12 22:00:00
 lugar: Artsenal. Muelle Uno.
 categories: musica artsenal muelle_uno
 short_description: Pos el Kanka, en muelle uno, el sábado.
-
 image_preview: /images/feria_de_mar_2017.jpeg
 ---
 {{ page. date_event }}

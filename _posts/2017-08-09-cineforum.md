@@ -3,9 +3,9 @@ layout: post
 title: Malaga Cineforum Lgbti
 date: 2017-08-08 00:18:23
 date_event: 2017-08-10 20:00
-lugar: Calle Trinidad Grund, 4, 29001 Málaga (Málaga), España
+lugar: Calle Trinidad Grund, 4, 29001 Málaga (Malaga), España
 hora: 20:00
-author: caraculo
+author: cine
 categories: cine
 short_description: Pride es una pelicula de drama y comedia británica de 2014, escrita por Stephen Beresford y dirigida por Matthew Warchus.
 image_preview: /images/20525297_1243729409069183_8833206566786200646_n.jpg
