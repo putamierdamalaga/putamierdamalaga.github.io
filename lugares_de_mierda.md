@@ -57,7 +57,7 @@ Los lugares m'as mierdas de toda M'alaga
 
 - CaC
 - Pompidou
-- Artsanal
+- Artsenal
 
 ## Salas Conciertos
 

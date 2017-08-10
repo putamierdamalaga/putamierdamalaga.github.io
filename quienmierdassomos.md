@@ -19,4 +19,6 @@ Si no te gusta, te jodes.
 
 Lo primero es lo primero, donde está el cagadero.
 
+Vamos a dar las gracias a los creadores de Jekyll y de hack.css pues sin ellos esta movida no sería posible. Tmb a todas las personas que intentan hacer un poco menos sufrible el vivir en esta ciudad generando y difundiendo cultura, putos culturetas esto va pa vosotros.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rkwXaLsnIiU" frameborder="0" allowfullscreen></iframe>
