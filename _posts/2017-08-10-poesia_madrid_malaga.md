@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Poesia Madrid y Málaga
 date: 2017-08-10 00:00:23
@@ -8,7 +8,7 @@ categories: poesía polivalente
 short_description: Este jueves 10 de agosto, a partir de las 21:30 se unirán las palabras de Madrid y Málaga, en las voces de Leo Zelada, Alicia Chamorro, Martín Rodríguez-Gaona, Kris León, Nacho Pérez y José Nebreda. Multitud de miradas reunidas donde la magia tendrá su espacio para que podais abrazarlo con vuestras miradas.
 image_preview: /images/poesia_polivalente_madrid.jpg
 ---
-{{ page. date_event }}
+{{ page.date_event }}
 {{ page.lugar }}
 <br/>
 {{ page.categories }}
