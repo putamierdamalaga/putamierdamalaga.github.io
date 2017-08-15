@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title: Concierto The Loud Residents
-date: 2017-08-13 00:00:00
+date: 2017-08-13 00:00:01
 date_event: 2017-08-13 17:00:00
 lugar: Auditorio Eduardo Ocón
 categories: música feria
