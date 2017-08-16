@@ -1,0 +1,83 @@
+---
+layout: default
+permalink: eventoscaca
+---
+
+<section>
+  <h1>puta_mierda_eventos</h1>
+  <p>
+    Te vale con una lista o qu'e? En un futuro puede que incluso tengamos mapica
+  </p>
+</section>
+
+<section>
+
+  {% assign sorted = site.pages | sort:'date' | reverse %}
+
+  {% for event in sorted %}
+	{% if event.type == 'event' %}
+	  <hr />
+    <div class="media t-hackcss-media">
+
+      <div class="t-hackcss-media-shift media-left">
+        <img class="t-hackcss-media-image"
+             src="{{ event.image_preview }}" alt="{{ post.title }}"
+             title="{{ event.title }}" />
+      </div>
+
+      <div class="media-body">
+        <div class="media-heading">
+          <span>{{ event.date | date_to_string }} &raquo;
+              <a href="{{ event.url | prepend: site.baseurl }}" title="{{ project.name }}">
+                {{ event.title }}
+              </a>
+          </span>
+        </div>
+        <div class="media-content">
+		  {{ event.lugar }}
+		  <br/>
+		  {{ event.categories }}
+		  <br/>
+          {{ event.short_description }}
+        </div>
+      </div>
+  </div>
+  {% endif %}
+  {% endfor %}
+</section>
+
+<!-- <section>
+
+  <h2>Cards</h2>
+
+  <div class="grid t-hackcss-cards">
+
+    {% for project in site.projects %}
+
+    <div class="cell -6of12 t-hackcss-cards-cell">
+      <div class="card">
+        <header class="card-header">{{ project.name }}</header>
+        <div class="card-content">
+          <div class="inner">
+
+            {% if project.image %}
+            <img src="{{ project.image }}" class="t-hackcss-cards-image"
+                 alt="{{ project.name }}"
+                 title="{{ project.name }}" />
+            {% endif %}
+
+            <p class="t-hackcss-cards-text">{{ project.description }}</p>
+            <p class="t-hackcss-cards-link">
+              <a href="{{ project.link }}" title="{{ project.name }}" target="_blank">
+                 {{ project.name }}
+               </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% endfor %}
+
+  </div>
+</section> -->

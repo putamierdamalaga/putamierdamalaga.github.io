@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Malaga Cineforum Lgbti
-date: 2017-08-08 00:18:23
-date_event: 2017-08-10 20:00:00
+type: event
+date: 2017-08-10 20:00:00
 lugar: Calle Trinidad Grund, 4, 29001 Málaga (Malaga), España
 hora: 20:00
 author: cine
