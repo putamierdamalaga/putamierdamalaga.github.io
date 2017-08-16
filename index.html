@@ -28,16 +28,51 @@ layout: default
     <h2>What is PUTA_MIERDA?</h2>
 
     <p>
-		RECOLECTOR DE MIERDA BUENA
+		RECOLECTOR DE MIERDA BUENA. Puedes saber más por <a href="{{site.baseurl}}/quienmierdassomos/">aquí</a>
     </p>
   </section>
 
   <section>
-    <h2>Suscribete premoh!, ni puta idea de como va el feed a'un</h2>
+	<h2>Eventooos Próximos</h2>
 
-    <p>
-      subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
-    </p>
+    {% assign sorted = site.pages | sort:'date' | reverse %}
+
+    {% for event in sorted limit:2 %}
+  	{% if event.type == 'event' %}
+  	  <hr />
+      <div class="media t-hackcss-media">
+
+        <div class="t-hackcss-media-shift media-left">
+          <img class="t-hackcss-media-image"
+               src="{{ event.image_preview }}" alt="{{ post.title }}"
+               title="{{ event.title }}" />
+        </div>
+
+        <div class="media-body">
+          <div class="media-heading">
+            <span>{{ event.date | date_to_string }} &raquo;
+                <a href="{{ event.url | prepend: site.baseurl }}" title="{{ project.name }}">
+                  {{ event.title }}
+                </a>
+            </span>
+          </div>
+          <div class="media-content">
+  		  {{ event.lugar }}
+  		  <br/>
+  		  {{ event.categories }}
+  		  <br/>
+            {{ event.short_description }}
+          </div>
+        </div>
+    </div>
+    {% endif %}
+    {% endfor %}
   </section>
 
+  <section>
+    <hr />
+    <h2>Suscribete premoh!, ni puta idea de como va el feed a'un</h2>
+    <p>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
+    </p>
+  </section>
 </div>
