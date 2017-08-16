@@ -27,7 +27,7 @@ permalink: eventoscaca
 
       <div class="media-body">
         <div class="media-heading">
-          <span>{{ event.date | date_to_string }} &raquo;
+          <span>{{ event.date | date: "%-d %B %Y %R" }} &raquo;
               <a href="{{ event.url | prepend: site.baseurl }}" title="{{ project.name }}">
                 {{ event.title }}
               </a>
