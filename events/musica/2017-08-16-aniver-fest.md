@@ -14,7 +14,7 @@ image_preview: /images/aniverfest2017.jpg
 {{ page.categories }}
 
 
- ![]({{ image_preview }})
+ ![]({{ page.image_preview }})
 
 Pos lo que veís en el cartel gente.
 
